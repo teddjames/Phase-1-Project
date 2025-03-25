@@ -68,14 +68,15 @@ Use the "Grid View" and "List View" buttons to change how the suits are displaye
 5. **Dark/Light Mode:**
 Use the dark mode toggle to switch the theme of the application.
 
-## Folder Structure
-```bash
-PHASE1PROJECT/
-├── index.html        # Main HTML file
-├── styles.css        # CSS for styling and responsiveness
-├── index.js          # JavaScript for data fetching, filtering, and interactivity
-├── suits.json        # JSON file with suit data
-└── README.md         # This README file
+    ## Folder Structure
+     ```bash
+          PHASE1PROJECT/
+        ├── index.html        # Main HTML file
+        ├── styles.css        # CSS for styling and responsiveness
+        ├── index.js          # JavaScript for data fetching, filtering, and interactivity
+        ├── suits.json        # JSON file with suit data
+        └── README.md         # This README file
+
 
 ## Technologies Used
 HTML5: For semantic structure and layout.
