@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Suit Up – Your Ultimate Suit Selector</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Select Your Suit</h1>
+      <div class="controls">
+        <select id="style-filter">
+          <option value="">All Styles</option>
+          <option value="slim fit">Slim Fit</option>
+          <option value="classic">Classic</option>
+          <option value="Baggy">Baggy</option>
+        </select>
+        <input type="text" id="color-filter" placeholder="Enter color" />
+        <input type="number" id="price-filter" placeholder="Max Price" />
+        <input type="text" id="search-input" placeholder="Search suits" />
+        <div class="view-toggle">
+          <button id="grid-view">Grid View</button>
+          <button id="list-view">List View</button>
+        </div>
+        <div class="theme-toggle">
+          <label for="theme-toggle">Dark Mode:</label>
+          <input type="checkbox" id="theme-toggle" />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="suits-container" class="grid-view"></section>
+    </main>
+
+    <!-- Modal for suit details -->
+    <div id="suit-modal" class="modal hidden">
+      <div class="modal-overlay"></div>
+      <div class="modal-content">
+        <button id="close-modal" class="close">&times;</button>
+        <img id="modal-image" src="" alt="Suit Image" />
+        <h3 id="modal-brand"></h3>
+        <p id="modal-price"></p>
+        <p id="modal-style"></p>
+        <p id="modal-details"></p>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,199 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+  background-color: #4a90e2;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header .controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+header select,
+header input {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+header select:focus,
+header input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+.view-toggle button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.view-toggle button:hover {
+  background-color: #e0e0e0;
+}
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.9em;
+}
+
+/* Main Container */
+main {
+  padding: 20px;
+}
+
+/* Suit Cards */
+#suits-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Grid View */
+.grid-view .suit-card {
+  width: 250px;
+}
+
+/* List View */
+.list-view {
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-view .suit-card {
+  width: 90%;
+  display: flex;
+  gap: 20px;
+}
+
+/* Suit Card Styling */
+.suit-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.suit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.suit-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.suit-card .suit-info {
+  padding: 5px;
+}
+
+.suit-card h3 {
+  margin: 10px 0 5px;
+}
+
+/* Modal Styling */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 1001;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.modal-content img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #121212;
+  color: #f2f2f2;
+}
+
+.dark-mode header {
+  background-color: #1f1f1f;
+}
+
+.dark-mode .suit-card {
+  background: #1f1f1f;
+  color: #f2f2f2;
+}
+
+.dark-mode .modal-content {
+  background: #1f1f1f;
+  color: #f2f2f2;
+}

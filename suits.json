@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "brand": "Armani",
+    "price": 250,
+    "color": "navy",
+    "style": "Baggy",
+    "sizes": ["S", "M", "L"],
+    "image": "https://i.pinimg.com/236x/24/aa/66/24aa66e65b7d0b6b8e559fa42b4c8d64.jpg",
+    "details": "A premium slim fit suit by Armani."
+  },
+  {
+    "id": 2,
+    "brand": "Hugo Boss",
+    "price": 250,
+    "color": "black",
+    "style": "classic",
+    "sizes": ["M", "L", "XL"],
+    "image": "https://i.pinimg.com/236x/17/20/72/17207212fc5a27c3f9806449901e2d71.jpg",
+    "details": "A timeless classic suit with modern tailoring."
+  },
+  {
+    "id": 3,
+    "brand": "Tom Ford",
+    "price": 350,
+    "color": "white",
+    "style": "Slim fit",
+    "sizes": ["S", "M", "L"],
+    "image": "https://i.pinimg.com/236x/8f/65/54/8f6554a57425aa7c56b83a036dcaf456.jpg",
+    "details": "Famed for its elegant, sharp tailoring and a favorite among celebrities."
+  },
+  {
+    "id": 4,
+    "brand": "Brioni",
+    "price": 275,
+    "color": "galaxy blue",
+    "style": "Slim fit",
+    "sizes": ["S", "M", "L", "XL"],
+    "image": "https://i.pinimg.com/236x/93/8b/7d/938b7d34878f4b8408ddaedde4ddf03a.jpg",
+    "details": "An Italian luxury house offering meticulously handcrafted suits."
+  },
+  {
+    "id": 5,
+    "brand": "Richard James",
+    "price": 200,
+    "color": "grey",
+    "style": "Slim fit",
+    "sizes": ["S", "M"],
+    "image": "https://i.pinimg.com/236x/12/6f/6a/126f6ad011d2766519792db61aa2b16e.jpg",
+    "details": " A modern Savile Row tailor known for slim, fashion-forward tailoring"
+  },
+  {
+    "id": 6,
+    "brand": "Brunello Cucinelli",
+    "price": 300,
+    "color": "dark red",
+    "style": "Classic",
+    "sizes": ["L", "XL"],
+    "image": "https://i.pinimg.com/236x/c9/12/98/c9129887402e1582dc21db4ea123b58f.jpg",
+    "details": "bines luxury with a modern twist, focusing on ethical production and top-quality fabrics."
+  }
+]
