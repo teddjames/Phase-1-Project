@@ -69,6 +69,7 @@ Use the "Grid View" and "List View" buttons to change how the suits are displaye
 Use the dark mode toggle to switch the theme of the application.
 
 ## Folder Structure
+```bash
 PHASE1PROJECT/
 ├── index.html        # Main HTML file
 ├── styles.css        # CSS for styling and responsiveness
