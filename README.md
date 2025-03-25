@@ -1,10 +1,10 @@
-#Suit Up - Your Ultimate Suit Selector
+## Suit Up - Your Ultimate Suit Selector
 
 **Suit Up** is a single-page application (SPA) that allows users to browse, search, and filter a curated collection of formal clothing suits. Built with HTML, CSS, and JavaScript, this project demonstrates asynchronous data fetching, dynamic DOM manipulation, responsive design, and multiple user interactions like filtering, view toggling, and dark/light mode switching.
 
-##Table of Contents
--[Author](#author)
--[Overview](#overview)
+## Table of Contents
+- [Author](#author)
+- [Overview](#overview)
 - [Features](#features)
 - [Installation and Setup](#installation-and-setup)
 - [Usage](#usage)
@@ -42,6 +42,7 @@ Tedd James
    cd <repository-directory>
 
 2. **Run this command in your terminal:**
+   ```bash
    json-server --watch suits.json
    
 3. **Open the Project:**
