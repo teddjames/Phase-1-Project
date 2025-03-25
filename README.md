@@ -47,10 +47,12 @@ Tedd James
    ```
 
 2. **Run this command in your terminal:**
+
    ```bash
    json-server --watch suits.json
 
    ```
+
 3. **Open the Project:**
    Since this is a frontend-only project, open the index.html file in your web browser.
 4. **Data Setup:**
@@ -73,14 +75,17 @@ Tedd James
 5.  **Dark/Light Mode:**
     Use the dark mode toggle to switch the theme of the application.
 
-        ## Folder Structure
-         ```bash
-              PHASE1PROJECT/
-            ├── index.html        # Main HTML file
-            ├── styles.css        # CSS for styling and responsiveness
-            ├── index.js          # JavaScript for data fetching, filtering, and interactivity
-            ├── suits.json        # JSON file with suit data
-            └── README.md         # This README file
+## Folder Structure
+
+```bash
+  PHASE1PROJECT/
+     ├── index.html        # Main HTML file
+     ├── styles.css        # CSS for styling and responsiveness
+     ├── index.js          # JavaScript for data fetching, filtering, and interactivity
+     ├── suits.json        # JSON file with suit data
+     └── README.md         # This README file
+
+```
 
 ## Technologies Used
 
